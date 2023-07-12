@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.con9{
+    display: flex;
+    background-image: url('./Con9.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    justify-content: center;
+    background-color: #F5F5F7;
+    align-items: flex-start;
+}
+
+.logo9{
+    width: 45px;
+    height: 45px;
+    margin-top: -4%;
+}
+
+.heading9 {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.head91 {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "San Francisco";
+    letter-spacing: inherit;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: -4%;
+}
+
+.head92 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "San Francisco";    
+    letter-spacing: inherit;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-left: 8%;
+    white-space: nowrap;
+}
+
+.head93 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "San Francisco";    
+    letter-spacing: inherit;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-left: 8%;
+    white-space: nowrap;
+}
+
+.head94{
+    width: 100%;
+    text-align: center;
+    color: #06C;
+}
+
+
+.link9{
+    text-decoration: none;
+    color: #06C;
+    letter-spacing: inherit;
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.link9:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (min-width:381px) and (max-width: 1000px) {
+    .con9{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .heading9{
+        margin-bottom: 0%;
+    }
+    .logo9{
+        width: 35px;
+        height: 35px;
+    }
+    .head91 {
+        font-size: 35px;
+    }
+    .head92 {
+        font-size: 18px;
+        width: 70%;
+    }
+    .head93{
+        font-size: 16px;
+    }
+    .head94{
+        margin-left: 8%;
+        white-space: nowrap;
+    }
+    .link9{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .con9{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .heading9{
+        margin-bottom: 0%;
+    }
+    .logo9{
+        width: 22px;
+        height: 22px;
+    }
+    .head91 {
+        font-size: 22px;
+    }
+    .head92 {
+        font-size: 12px;
+        width: 70%;
+        margin-left: 17%;
+    }
+    .head93{
+        font-size: 10px;
+    }
+    .link9{
+        font-size: 10px;
+    }
+}

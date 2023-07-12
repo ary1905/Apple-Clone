@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.foot {
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+}
+
+.mainFoot {
+    margin: 1% 18% 0% 18%;
+}
+
+.p1 {
+    font-size: 13px;
+    color: #696969;
+    font-family: "San Francisco";
+}
+
+.p2 {
+    font-size: 13px;
+    color: #000000;
+    font-family: "San Francisco";
+    font-weight: 600;
+    text-align: left;
+    width: 20%;
+}
+
+.p3 {
+    font-size: 12px;
+    color: #696969;
+    font-family: "San Francisco";
+    font-weight: 500;
+    text-align: left;
+    width: 20%;
+    cursor: pointer;
+}
+
+.p3:hover {
+    text-decoration: underline;
+}
+
+.line {
+    height: 0.1px;
+    background-color: #6969697b;
+    width: 100%;
+}
+
+.btnHead {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -8px;
+}
+
+.btnHead1 {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.p4 {
+    font-size: 82%;
+    color: #696969;
+    font-family: "San Francisco";
+    font-weight: 500;
+}
+
+.p5 {
+    font-size: 82%;
+    color: #696969;
+    font-family: "San Francisco";
+    font-weight: 500;
+    width: 50%;
+}
+
+.p6 {
+    font-size: 82%;
+    color: #000000;
+    font-family: "San Francisco";
+    font-weight: 500;
+    width: 22%;
+}
+
+.p6:hover {
+    text-decoration: underline;
+}
+
+.btnHead2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.btnHead2 p:not(:first-child):not(:last-child) {
+    text-align: center;
+}
+
+.btnHead2 p:last-child {
+    text-align: right;
+}
+
+.vert {
+
+    height: 20px;
+    width: 1px;
+    background-color: #2f2e2ea9;
+}

@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.con6{
+    display: flex;
+    background-image: url('./Con6.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.logo6{
+    width: 45px;
+    height: 45px;
+}
+
+.heading6 {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.head61 {
+    font-size: 38px;
+    font-weight: 900;
+    font-family: "San Francisco";
+    letter-spacing: inherit;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: -4%;
+}
+
+.head62 {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "San Francisco";    
+    letter-spacing: inherit;
+    cursor: pointer;
+    text-align: center;
+    color: red !important;
+    margin-bottom: 0%;
+    margin-left: 8%;
+}
+
+.head63{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "San Francisco";
+    letter-spacing: inherit;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0%;
+
+}
+
+.head64{
+    width: 100%;
+    text-align: center;
+    color: #06C;
+}
+
+
+.link6{
+    text-decoration: none;
+    color: #06C;
+    letter-spacing: inherit;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.link6:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (min-width:381px) and (max-width: 1000px) {
+    .con6{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .heading6{
+        margin-bottom: 0%;
+    }
+    .logo6{
+        width: 35px;
+        height: 35px;
+    }
+    .head61 {
+        font-size: 35px;
+    }
+    .head62 {
+        font-size: 18px;
+        width: 70%;
+        margin-left: 17%;
+    }
+    .head63{
+        font-size: 16px;
+    }
+    .link6{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .con6{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .heading6{
+        margin-bottom: 0%;
+    }
+    .logo6{
+        width: 22px;
+        height: 22px;
+    }
+    .head61 {
+        font-size: 22px;
+    }
+    .head62 {
+        font-size: 12px;
+        width: 70%;
+        margin-left: 17%;
+    }
+    .head63{
+        font-size: 10px;
+    }
+    .link6{
+        font-size: 10px;
+    }
+}

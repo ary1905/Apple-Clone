@@ -1,0 +1,60 @@
+.App{
+    display: grid;
+    background-color: #ffffff;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 78vh 78vh 78vh 636px 636px 636px 92vh 150vh;
+    grid-template-areas: 
+    "nav nav"
+    "con1 con1"
+    "con2 con2"
+    "con3 con3"
+    "con4 con5"
+    "con6 con7"
+    "con8 con9"
+    "con10 con10"
+    "foot foot";
+    grid-gap: 0.7rem;
+    margin-left: 0.5%;
+}
+
+
+
+@media only screen and (max-width: 733px) {
+    .App{
+    grid-template-columns: 1fr;
+    grid-template-rows: 5vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh 55vh 35vh 82.5fr;
+    grid-template-areas: 
+    "nav"
+    "con1"
+    "con2"
+    "con3"
+    "con4"
+    "con5"
+    "con6" 
+    "con7"
+    "con8" 
+    "con9"
+    "con10"
+    "foot";
+    }
+}
+
+@media only screen and (min-width: 734px)  and (max-width: 1000px) {
+    .App{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30px 70vh 70vh 78vh 550px 550px 550px 550px 90vh;
+        grid-template-areas: 
+        "nav nav"
+        "con1 con1"
+        "con2 con2"
+        "con3 con3"
+        "con4 con5"
+        "con6 con7"
+        "con8 con9"
+        "con10 con10"
+        "foot foot";
+        grid-gap: 0.7rem;
+    }
+}
+

@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.con7{
+    display: flex;
+    background-image: url('./Con7.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.heading7{
+    margin-top: 10%;
+}
+
+.head71 {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: "San Francisco";
+    letter-spacing: inherit;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.head72 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: inherit;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.logo7{
+    width: 55px;
+    height: 55px;
+}
+
+.link7{
+    text-decoration: none;
+    color: #06C;
+    letter-spacing: inherit;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.link7:hover{
+    text-decoration: underline;
+}
+
+.head73{
+    margin-left: 10%;
+    color: #06C;
+
+}
+
+@media only screen and (min-width:381px) and (max-width: 700px) {
+    .con7{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .heading7{
+        margin-bottom: 0%;
+    }
+    .logo7{
+        width: 35px;
+        height: 35px;
+    }
+    .head71 {
+        font-size: 35px;
+    }
+    .head72 {
+        font-size: 18px;
+    }
+    .head73{
+        font-size: 14px;
+    }
+    .link7{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .con7{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .heading7{
+        margin-bottom: 0%;
+    }
+    .logo7{
+        width: 22px;
+        height: 22px;
+    }
+    .head71 {
+        font-size: 22px;
+    }
+    .head72 {
+        font-size: 12px;
+        width: 70%;
+        margin-left: 17%;
+    }
+    .head73{
+        font-size: 8px;
+    }
+    .link7{
+        font-size: 8px;
+    }
+}
