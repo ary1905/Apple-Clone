@@ -106,3 +106,30 @@
     width: 1px;
     background-color: #2f2e2ea9;
 }
+
+@media only screen and (max-width: 733px) {
+    .p1 {
+        font-size: 8px;
+        color: #696969;
+        font-family: "San Francisco";
+    }
+    .p2 {
+        font-size: 8px;
+    }
+    
+    .p3 {
+        font-size: 7px;
+    }
+    .p4 {
+        font-size: 55%;
+    }
+    
+    .p5 {
+        font-size: 55%;
+    }
+    
+    .p6 {
+        font-size: 55%;
+    }
+
+}

@@ -43,7 +43,7 @@
 @media only screen and (min-width: 734px)  and (max-width: 1000px) {
     .App{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 30px 70vh 70vh 78vh 550px 550px 550px 550px 90vh;
+        grid-template-rows: 30px 70vh 70vh 78vh 550px 550px 550px 550px 150vh;
         grid-template-areas: 
         "nav nav"
         "con1 con1"
